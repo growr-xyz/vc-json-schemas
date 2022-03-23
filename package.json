@@ -1,5 +1,5 @@
 {
-  "name": "@rsksmart/vc-json-schemas",
+  "name": "@growr/vc-json-schemas",
   "version": "1.0.1",
   "description": "A repository of JSON Schemas for Verifiable Credentials",
   "main": "base-schema.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsksmart/vc-json-schemas.git"
+    "url": "git+https://github.com/growr-xyz/vc-json-schemas.git"
   },
   "keywords": [
     "did",
@@ -26,7 +26,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rsksmart/vc-json-schemas/issues"
+    "url": "https://github.com/growr-xyz/vc-json-schemas/issues"
   },
-  "homepage": "https://github.com/rsksmart/vc-json-schemas#readme"
+  "homepage": "https://github.com/growr-xyz/vc-json-schemas#readme"
 }
