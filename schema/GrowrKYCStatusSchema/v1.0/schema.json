@@ -1,7 +1,7 @@
 {
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
   "modelVersion": "1.0",
-  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=2f252564-f8b9-4204-9ec1-23cd2ad838d8;version=1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=be7eaf37-9c05-4c24-a5d0-6a362e899690;version=1.0",
   "name": "GrowrKYCStatusSchema",
   "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
   "authored": "2022-03-22T15:16:00-03:00",

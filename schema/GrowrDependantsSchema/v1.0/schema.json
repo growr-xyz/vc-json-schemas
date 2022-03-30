@@ -1,7 +1,7 @@
 {
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
   "modelVersion": "1.0",
-  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=093ecd98-42d0-4efc-8950-f8cbf0eaad35;version=1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=b89fbdb0-0083-48a3-ae7e-c8bb43b6f252;version=1.0",
   "name": "GrowrDependantsSchema",
   "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
   "authored": "2022-03-22T10:40:00-03:00",

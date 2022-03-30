@@ -1,7 +1,7 @@
 {
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
   "modelVersion": "1.0",
-  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=093ecd98-42d0-4efc-8950-f8cbf0eaad35;version=1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=1ced84a4-559b-4d35-add2-f5484338e43f;version=1.0",
   "name": "GrowrDoBSchema",
   "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
   "authored": "2022-03-08T12:40:00-03:00",
