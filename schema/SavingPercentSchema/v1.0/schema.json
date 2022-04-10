@@ -11,7 +11,7 @@
     "type": "object",
     "properties": {
       "savingPercent": {
-        "type": "string"
+        "type": "number"
       }
     },
     "required": ["savingPercent"],

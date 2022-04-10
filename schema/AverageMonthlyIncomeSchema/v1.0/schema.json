@@ -11,7 +11,7 @@
     "type": "object",
     "properties": {
       "avgMonthlyIncome": {
-        "type": "string"
+        "type": "number"
       }
     },
     "required": ["avgMonthlyIncome"],

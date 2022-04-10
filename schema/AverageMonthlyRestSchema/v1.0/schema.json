@@ -11,7 +11,7 @@
     "type": "object",
     "properties": {
       "avgMonthlyRest": {
-        "type": "string"
+        "type": "number"
       }
     },
     "required": ["avgMonthlyRest"],
