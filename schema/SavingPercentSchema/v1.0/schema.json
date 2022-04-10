@@ -1,0 +1,20 @@
+{
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
+  "modelVersion": "1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=606d0f64-83ef-4860-bd6a-a829eb75bb58;version=1.0",
+  "name": "SavingPercentageSchema",
+  "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
+  "authored": "2022-04-09T12:40:00-03:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "SavingPercentage",
+    "type": "object",
+    "properties": {
+      "savingPercentage": {
+        "type": "string"
+      }
+    },
+    "required": ["savingPercentage"],
+    "additionalProperties": false
+  }
+}
