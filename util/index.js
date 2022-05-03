@@ -1,22 +1,25 @@
 const createVcPayload = require('./createVcPayload')
 
+const getTemplate = (type) => {
+  return typeTemplateMap[type]
+}
+
 const typeTemplateMap = {
-  dateOfBirth: vcTemplates.createDoBCredentialPayload,
-  relationshipStatus: vcTemplates.createRelationshipStatusCredentialPayload,
-  dependants: vcTemplates.createDependantsCredentialPayload,
-  employmentStatus: vcTemplates.createEmploymentStatusCredentialPayload,
-  highestEducationAttained: vcTemplates.createHighestEducationAttainedCredentialPayload,
-  kycStatus: vcTemplates.createKYCStatusCredentialPayload,
-  hasKYC: vcTemplates.createHasKYCCredentialPayload,
-  citizenship: vcTemplates.createCitizenshipCredentialPayload,
-  age: vcTemplates.createAgeCredentialPayload,
-  avgMonthlyIncome: vcTemplates.createAvgMonthlyIncomeCredentialPayload,
-  avgMonthlyRest: vcTemplates.createAvgMonthlyRestCredentialPayload,
-  savingPercent: vcTemplates.createSavingPercentCredentialPayload,
+  dateOfBirth: createVcPayload.createDoBCredentialPayload,
+  relationshipStatus: createVcPayload.createRelationshipStatusCredentialPayload,
+  dependants: createVcPayload.createDependantsCredentialPayload,
+  employmentStatus: createVcPayload.createEmploymentStatusCredentialPayload,
+  highestEducationAttained: createVcPayload.createHighestEducationAttainedCredentialPayload,
+  kycStatus: createVcPayload.createKYCStatusCredentialPayload,
+  hasKYC: createVcPayload.createHasKYCCredentialPayload,
+  citizenship: createVcPayload.createCitizenshipCredentialPayload,
+  age: createVcPayload.createAgeCredentialPayload,
+  avgMonthlyIncome: createVcPayload.createAvgMonthlyIncomeCredentialPayload,
+  avgMonthlyRest: createVcPayload.createAvgMonthlyRestCredentialPayload,
+  savingPercent: createVcPayload.createSavingPercentCredentialPayload,
 }
 
 module.exports = {
-  typeTemplateMap,
-  createVcPayload
+  getTemplate,
 }
 
