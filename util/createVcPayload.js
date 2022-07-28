@@ -254,6 +254,23 @@ const createSavingPercentCredentialPayload = (
   },
 });
 
+const createAgriFinCoopCredentialPayload = (
+  sub,
+  agriFinCoop
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "AgriFinCoop"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=4c426a29-e35d-407e-9be6-73a2d8fecb2e;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { agriFinCoop },
+  },
+})
+
 module.exports = {
   createDoBCredentialPayload,
   createEmailCredentialPayload,
@@ -269,5 +286,6 @@ module.exports = {
   createAgeCredentialPayload,
   createAvgMonthlyIncomeCredentialPayload,
   createAvgMonthlyRestCredentialPayload,
-  createSavingPercentCredentialPayload
+  createSavingPercentCredentialPayload,
+  createAgriFinCoopCredentialPayload
 }
