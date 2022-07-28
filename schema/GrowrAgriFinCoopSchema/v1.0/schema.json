@@ -1,0 +1,20 @@
+{
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
+  "modelVersion": "1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=4c426a29-e35d-407e-9be6-73a2d8fecb2e;version=1.0",
+  "name": "GrowrAgriFinCoopSchema",
+  "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
+  "authored": "2022-07-28T15:10:00-03:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "AgriFinCoop",
+    "type": "object",
+    "properties": {
+      "agriFinCoop": {
+        "type": "string"
+      }
+    },
+    "required": ["agriFinCoop"],
+    "additionalProperties": false
+  }
+}
