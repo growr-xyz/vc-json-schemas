@@ -1,0 +1,20 @@
+{
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
+  "modelVersion": "1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=4fd53469-d51b-456e-bfe7-820012251ee5;version=1.0",
+  "name": "landSizeSchema",
+  "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
+  "authored": "2022-10-29T12:40:00-03:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "landSize",
+    "type": "object",
+    "properties": {
+      "landSize": {
+        "type": "number"
+      }
+    },
+    "required": ["landSize"],
+    "additionalProperties": false
+  }
+}

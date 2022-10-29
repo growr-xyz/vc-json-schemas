@@ -17,7 +17,8 @@ const typeTemplateMap = {
   avgMonthlyIncome: createVcPayload.createAvgMonthlyIncomeCredentialPayload,
   avgMonthlyRest: createVcPayload.createAvgMonthlyRestCredentialPayload,
   savingPercent: createVcPayload.createSavingPercentCredentialPayload,
-  agriFinCoop: createVcPayload.createAgriFinCoopCredentialPayload
+  agriFinCoop: createVcPayload.createAgriFinCoopCredentialPayload,
+  landSize: createVcPayload.createLandSizeCredentialPayload,
 }
 
 module.exports = {

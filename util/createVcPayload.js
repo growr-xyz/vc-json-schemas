@@ -269,7 +269,27 @@ const createAgriFinCoopCredentialPayload = (
     },
     credentialSubject: { agriFinCoop },
   },
-})
+});
+
+const createLandSizeCredentialPayload = (
+  sub,
+  landSize
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "landSize"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=4fd53469-d51b-456e-bfe7-820012251ee5;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { landSize },
+  },
+});
+
+
+
 
 module.exports = {
   createDoBCredentialPayload,
@@ -287,5 +307,6 @@ module.exports = {
   createAvgMonthlyIncomeCredentialPayload,
   createAvgMonthlyRestCredentialPayload,
   createSavingPercentCredentialPayload,
-  createAgriFinCoopCredentialPayload
+  createAgriFinCoopCredentialPayload,
+  createLandSizeCredentialPayload
 }
