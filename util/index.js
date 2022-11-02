@@ -19,9 +19,10 @@ const typeTemplateMap = {
   savingPercent: createVcPayload.createSavingPercentCredentialPayload,
   agriFinCoop: createVcPayload.createAgriFinCoopCredentialPayload,
   landSize: createVcPayload.createLandSizeCredentialPayload,
+  maritalStatus: createVcPayload.createMaritalStatusCredentialPayload,
+  savingsAndCreditCoops: createVcPayload.createSavingsAndCreditCoopCredentialPayload,
 }
 
 module.exports = {
   getTemplate,
 }
-

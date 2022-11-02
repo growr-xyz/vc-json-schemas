@@ -1,0 +1,26 @@
+{
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
+  "modelVersion": "1.0",
+  "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=a0b381de-f05a-4951-9995-1ee9269424c6;version=1.0",
+  "name": "maritalStatusSchema",
+  "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
+  "authored": "2022-11-02T10:40:00-03:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "maritalStatus",
+    "type": "object",
+    "properties": {
+      "landSize": {
+        "maritalStatus": "string",
+        "enum": [
+          "MARRIED",
+          "SINGLE",
+          "DIVORCED",
+          "WIDOWED"
+        ]
+      }
+    },
+    "required": ["maritalStatus"],
+    "additionalProperties": false
+  }
+}

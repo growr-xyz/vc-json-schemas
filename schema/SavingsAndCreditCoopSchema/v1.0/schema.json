@@ -1,0 +1,20 @@
+{
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
+  "modelVersion": "1.0",
+  "id": "did:ethr:rsk:0x8a32da624dd9fad8bf4f32d9456f374b60d9ad28;id=ee68eb33-bbb0-4d9c-bcc6-08b5470013d3;version=1.0",
+  "name": "savingsAndCreditCoopSchema",
+  "author": "did:ethr:rsk:0x8a32da624dd9fad8bf4f32d9456f374b60d9ad28",
+  "authored": "2022-11-02T10:40:00-03:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "savingsAndCreditCoop",
+    "type": "object",
+    "properties": {
+      "savingsAndCreditCoop": {
+        "type": "string"
+      }
+    },
+    "required": ["savingsAndCreditCoop"],
+    "additionalProperties": true
+  }
+}

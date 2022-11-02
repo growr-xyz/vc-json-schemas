@@ -288,6 +288,39 @@ const createLandSizeCredentialPayload = (
   },
 });
 
+const createMaritalStatusCredentialPayload = (
+  sub,
+  maritalStatus
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "maritalStatus"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=a0b381de-f05a-4951-9995-1ee9269424c6;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { maritalStatus },
+  },
+});
+
+const createSavingsAndCreditCoopCredentialPayload = (
+  sub,
+  savingsAndCreditCoop
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "savingsAndCreditCoop"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=ee68eb33-bbb0-4d9c-bcc6-08b5470013d3;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { savingsAndCreditCoop},
+  },
+});
 
 
 
@@ -308,5 +341,7 @@ module.exports = {
   createAvgMonthlyRestCredentialPayload,
   createSavingPercentCredentialPayload,
   createAgriFinCoopCredentialPayload,
-  createLandSizeCredentialPayload
+  createLandSizeCredentialPayload,
+  createMaritalStatusCredentialPayload,
+  createSavingsAndCreditCoopCredentialPayload,
 }
