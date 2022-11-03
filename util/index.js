@@ -20,7 +20,7 @@ const typeTemplateMap = {
   agriFinCoop: createVcPayload.createAgriFinCoopCredentialPayload,
   landSize: createVcPayload.createLandSizeCredentialPayload,
   maritalStatus: createVcPayload.createMaritalStatusCredentialPayload,
-  savingsAndCreditCoops: createVcPayload.createSavingsAndCreditCoopCredentialPayload,
+  savingsAndCreditCoop: createVcPayload.createSavingsAndCreditCoopCredentialPayload,
 }
 
 module.exports = {
