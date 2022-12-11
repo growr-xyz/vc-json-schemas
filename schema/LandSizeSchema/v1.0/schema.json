@@ -7,7 +7,7 @@
   "authored": "2022-10-29T12:40:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "landSize",
+    "description": "Land Size",
     "type": "object",
     "properties": {
       "landSize": {
