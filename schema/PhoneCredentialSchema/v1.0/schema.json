@@ -7,7 +7,7 @@
   "authored": "2021-07-30T03:22:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Phone number",
+    "description": "PhoneNumber",
     "type": "object",
     "properties": {
       "phoneNumber": {

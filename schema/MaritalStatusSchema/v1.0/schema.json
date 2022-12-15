@@ -7,20 +7,13 @@
   "authored": "2022-11-02T10:40:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "maritalStatus",
+    "description": "MaritalStatus",
     "type": "object",
     "properties": {
-      "landSize": {
-        "maritalStatus": "string",
-        "enum": [
-          "MARRIED",
-          "SINGLE",
-          "DIVORCED",
-          "WIDOWED"
-        ]
-      }
-    },
-    "required": ["maritalStatus"],
-    "additionalProperties": false
-  }
+      "maritalStatus": "string",
+      "enum": ["MARRIED", "SINGLE", "DIVORCED", "WIDOWED"]
+    }
+  },
+  "required": ["maritalStatus"],
+  "additionalProperties": false
 }
