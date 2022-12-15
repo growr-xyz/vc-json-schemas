@@ -7,7 +7,7 @@
   "authored": "2022-03-22T15:15:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Relationship Status",
+    "description": "RelationshipStatus",
     "type": "object",
     "properties": {
       "relationshipStatus": {

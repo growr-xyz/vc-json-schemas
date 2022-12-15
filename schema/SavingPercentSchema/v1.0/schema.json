@@ -7,7 +7,7 @@
   "authored": "2022-04-09T12:40:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Saving Percent",
+    "description": "SavingPercent",
     "type": "object",
     "properties": {
       "savingPercent": {

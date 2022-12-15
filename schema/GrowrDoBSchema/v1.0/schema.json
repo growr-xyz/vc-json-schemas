@@ -7,7 +7,7 @@
   "authored": "2022-03-08T12:40:00-03:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Date Of Birth",
+    "description": "DateOfBirth",
     "type": "object",
     "properties": {
       "dateOfBirth": {
