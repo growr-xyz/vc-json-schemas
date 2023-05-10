@@ -2,7 +2,7 @@
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
   "modelVersion": "1.0",
   "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=a833e666-096c-48cf-9e7b-946721d1cbcf;version=1.0",
-  "name": "GrowrMaxRecommendedInputSchema",
+  "name": "MaxRecommendedInputSchema",
   "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
   "authored": "2023-05-10T14:37:00-03:00",
   "schema": {

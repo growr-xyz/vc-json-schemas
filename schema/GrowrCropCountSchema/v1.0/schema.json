@@ -2,7 +2,7 @@
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/1.0/schema.json",
   "modelVersion": "1.0",
   "id": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=f8de35ba-7eba-45c2-936a-31ab39cab402;version=1.0",
-  "name": "GrowrCropCountSchema",
+  "name": "CropCountSchema",
   "author": "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79",
   "authored": "2023-05-10T14:35:00-03:00",
   "schema": {
