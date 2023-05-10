@@ -21,6 +21,8 @@ const typeTemplateMap = {
   landSize: createVcPayload.createLandSizeCredentialPayload,
   maritalStatus: createVcPayload.createMaritalStatusCredentialPayload,
   savingsAndCreditCoop: createVcPayload.createSavingsAndCreditCoopCredentialPayload,
+  maxRecommendedInput: createVcPayload.createMaxRecommendedInputCredentialPayload,
+  cropCount: createVcPayload.createCropCountCredentialPayload,
 }
 
 module.exports = {

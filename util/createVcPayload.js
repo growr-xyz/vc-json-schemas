@@ -322,7 +322,39 @@ const createSavingsAndCreditCoopCredentialPayload = (
   },
 });
 
+const createCropCountCredentialPayload = (
+  sub,
+  cropCount
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "CropCount"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=f8de35ba-7eba-45c2-936a-31ab39cab402;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { cropCount },
+  },
+});
 
+const createMaxRecommendedInputCredentialPayload = (
+  sub,
+  cropCount
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "MaxRecommendedInput"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=a833e666-096c-48cf-9e7b-946721d1cbcf;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { maxRecommendedInput },
+  },
+});
 
 module.exports = {
   createDoBCredentialPayload,
@@ -344,4 +376,6 @@ module.exports = {
   createLandSizeCredentialPayload,
   createMaritalStatusCredentialPayload,
   createSavingsAndCreditCoopCredentialPayload,
+  createCropCountCredentialPayload,
+  createMaxRecommendedInputCredentialPayload,
 }
