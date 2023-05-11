@@ -341,7 +341,7 @@ const createCropCountCredentialPayload = (
 
 const createMaxRecommendedInputCredentialPayload = (
   sub,
-  cropCount
+  maxRecommendedInput
 ) => ({
   issuanceDate: new Date(),
   sub,
