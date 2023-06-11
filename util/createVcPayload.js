@@ -356,6 +356,40 @@ const createMaxRecommendedInputCredentialPayload = (
   },
 });
 
+const createMinRecommendedInputCredentialPayload = (
+  sub,
+  minRecommendedInput
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "MinRecommendedInput"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=366d4645-e7cb-467a-8768-9df4cf2b648f;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { minRecommendedInput },
+  },
+});
+
+const createRegionNameCredentialPayload = (
+  sub,
+  regionName
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "regionName"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=4ff1262f-f392-41d8-bdbe-9f4bfaab9a5d;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { regionName },
+  },
+});
+
 module.exports = {
   createDoBCredentialPayload,
   createEmailCredentialPayload,
@@ -378,4 +412,6 @@ module.exports = {
   createSavingsAndCreditCoopCredentialPayload,
   createCropCountCredentialPayload,
   createMaxRecommendedInputCredentialPayload,
+  createMinRecommendedInputCredentialPayload,
+  createRegionNameCredentialPayload
 }

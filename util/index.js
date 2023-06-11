@@ -22,7 +22,9 @@ const typeTemplateMap = {
   maritalStatus: createVcPayload.createMaritalStatusCredentialPayload,
   savingsAndCreditCoop: createVcPayload.createSavingsAndCreditCoopCredentialPayload,
   maxRecommendedInput: createVcPayload.createMaxRecommendedInputCredentialPayload,
+  minRecommendedInput: createVcPayload.createMinRecommendedInputCredentialPayload,
   cropCount: createVcPayload.createCropCountCredentialPayload,
+  regionName: createVcPayload.createRegionNameCredentialPayload,
 }
 
 module.exports = {
