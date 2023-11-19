@@ -102,7 +102,7 @@ const createEmploymentStatusCredentialPayload = (
 
 const createHighestEducationAttainedCredentialPayload = (
   sub,
-  highestEducationAttained
+  j
 ) => ({
   issuanceDate: new Date(),
   sub,
@@ -390,6 +390,25 @@ const createRegionNameCredentialPayload = (
   },
 });
 
+const createLoanDateCredentialPayload = (
+  sub,
+  loanDate
+) => ({
+  issuanceDate: new Date(),
+  sub,
+  vc: {
+    "@context": ["https://www.w3.org/2018/credentials/v1"],
+    type: ["VerifiableCredential", "loanDate"],
+    credentialSchema: {
+      id: "did:ethr:rsk:0x6a3035ec3137beeb6789ffa90898ccad5cd06f79;id=2594e146-62f8-46e1-922d-ca343fe30b48;version=1.0",
+      type: "JsonSchemaValidator2018",
+    },
+    credentialSubject: { loanDate },
+  },
+});
+
+
+
 module.exports = {
   createDoBCredentialPayload,
   createEmailCredentialPayload,
@@ -413,5 +432,6 @@ module.exports = {
   createCropCountCredentialPayload,
   createMaxRecommendedInputCredentialPayload,
   createMinRecommendedInputCredentialPayload,
-  createRegionNameCredentialPayload
+  createRegionNameCredentialPayload,
+  createLoanDateCredentialPayload,
 }

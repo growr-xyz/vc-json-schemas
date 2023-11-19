@@ -25,6 +25,7 @@ const typeTemplateMap = {
   minRecommendedInput: createVcPayload.createMinRecommendedInputCredentialPayload,
   cropCount: createVcPayload.createCropCountCredentialPayload,
   regionName: createVcPayload.createRegionNameCredentialPayload,
+  loanDate: createVcPayload.createLoanDateCredentialPayload,
 }
 
 module.exports = {
